@@ -20,12 +20,10 @@
 #*                                                                         *
 #***************************************************************************
 
-from a2p_translateUtils import *
-
 PARTINFORMATION_SHEET_NAME = '_PARTINFO_'
 PARTINFORMATION_SHEET_LABEL = '#PARTINFO#'
 
-BOM_SHEET_NAME  = '_PARTSLIST_'  # BOM = BillOfMaterials...
+BOM_SHEET_NAME  = '_PARTSLIST_'  #BOM = BillOfMaterials...
 BOM_SHEET_LABEL = '#PARTSLIST#'
 BOM_MAX_COLS = 10
 BOM_MAX_LENGTH = 150
@@ -36,6 +34,12 @@ PARTLIST_COLUMN_NAMES = [
     u'DESCRIPTION',
     u'SUPPLIER',
     u'SUPP.IDENTNO',
-    u'SUPP.DESCRIPTION',
+    u'SUPP.DESRCIPTION',
+    u'SUPP.URL',
+    u'SUPP.PRICE',
+    u'SUPP.PRICEUNIT',
+    u'(DIMENSION X)',
+    u'(DIMENSION Y)',
+    u'(DIMENSION Z)',
     u'(FILENAME)'
     ]
